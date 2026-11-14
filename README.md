@@ -19,11 +19,12 @@ A simple Python port of the AI Studio workstation (React + Express). It keeps th
 
 ## Run
 ```
-pip install -r requirements.txt
-make test            # backend, API, retrieval, MCP, validation, and evaluation tests
-make serve           # app at http://localhost:8000 , API docs at /docs
-make eval            # DSPy Evaluate on the extractor (80/80)
-docker compose up --build -d  # API, three FastMCP servers, Chroma, Prometheus, Grafana
+#pip install -r requirements.txt
+#make test            # backend, API, retrieval, MCP, validation, and evaluation tests
+#make serve           # app at http://localhost:8000 , API docs at /docs
+#make eval            # DSPy Evaluate on the extractor (80/80)
+docker compose up --build -d  
+# API, three FastMCP servers, Chroma, Prometheus, Grafana
 ```
 
 ### Model: Google Gemini
