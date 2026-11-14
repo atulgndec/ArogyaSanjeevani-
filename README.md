@@ -2,7 +2,7 @@
 
 A simple Python port of the AI Studio workstation (React + Express). It keeps the original's module layout, so you can read the two side by side.
 
-- Source code: https://github.com/suhanijain/arogya-adjudicator-1
+- Source code: https://github.com/atulgndec/ArogyaSanjeevani-.git 
 - Live deployment (Render): https://arogya-adjudicator.onrender.com/ (API docs at `/docs`)
 
 | TypeScript | Python | Notes |
