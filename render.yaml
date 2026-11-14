@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: arogya-adjudicator
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /healthz
+    envVars:
+      - key: CLAIMS_APPROVAL_SECRET
+        generateValue: true
+      - key: LANGSMITH_TRACING
+        value: "false"

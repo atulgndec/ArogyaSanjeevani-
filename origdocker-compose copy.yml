@@ -1,0 +1,67 @@
+services:
+  api:
+    build: .
+    ports: ["8000:8000"]
+    environment:
+      OLLAMA_BASE_URL: "http://ollama:11434"
+      VECTOR_DB_DIR: "/data/vectors"
+      LANGGRAPH_CHECKPOINT_DB: "/data/workflow/checkpoints.sqlite3"
+      REFLEXION_DB_PATH: "/data/workflow/reflexion.sqlite3"
+      UPLOADED_CLAIMS_DB: "/data/workflow/uploaded_claims.sqlite3"
+    volumes: ["vectors:/data/vectors", "workflow-data:/data/workflow"]
+    depends_on: [ollama, vector-store, mcp-retrieval, mcp-filesystem, mcp-audit]
+
+  ollama:
+    image: ollama/ollama
+    ports: ["11434:11434"]
+    volumes: ["ollama:/root/.ollama"]
+
+  vector-store:
+    image: chromadb/chroma:latest
+    ports: ["8001:8000"]
+    volumes: ["vectors:/data"]
+
+  mcp-retrieval:
+    build: .
+    command: ["uvicorn", "mcp_retrieval:app", "--host", "0.0.0.0", "--port", "8100"]
+    environment:
+      OLLAMA_BASE_URL: "http://ollama:11434"
+      VECTOR_DB_DIR: "/data/mcp-vectors"
+    ports: ["8100:8100"]
+    volumes: ["mcp-vectors:/data/mcp-vectors"]
+
+  mcp-filesystem:
+    build: .
+    command: ["uvicorn", "mcp_filesystem:app", "--host", "0.0.0.0", "--port", "8101"]
+    ports: ["8101:8101"]
+    volumes: [".:/workspace:ro"]
+
+  mcp-audit:
+    build: .
+    command: ["uvicorn", "mcp_audit:app", "--host", "0.0.0.0", "--port", "8102"]
+    environment: {AROGYA_MCP_AUDIT_DB: "/data/review_notes.sqlite3"}
+    ports: ["8102:8102"]
+    volumes: ["mcp-audit-data:/data"]
+
+  prometheus:
+    image: prom/prometheus
+    command: ["--config.file=/etc/prometheus/prometheus.yml", "--web.enable-lifecycle"]
+    volumes: ["./ops/prometheus.yml:/etc/prometheus/prometheus.yml:ro", "./ops/prometheus-alerts.yml:/etc/prometheus/prometheus-alerts.yml:ro"]
+    ports: ["9090:9090"]
+
+  grafana:
+    image: grafana/grafana
+    depends_on:
+      prometheus:
+        condition: service_started
+    ports: ["3000:3000"]
+    volumes:
+      - ./ops/grafana/provisioning:/etc/grafana/provisioning
+      - ./ops/grafana/dashboards:/var/lib/grafana/dashboards
+
+volumes:
+  ollama: {}
+  vectors: {}
+  mcp-vectors: {}
+  mcp-audit-data: {}
+  workflow-data: {}

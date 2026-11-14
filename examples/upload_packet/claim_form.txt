@@ -1,0 +1,12 @@
+THE NEW INDIA ASSURANCE CO. LTD - AROGYA SANJEEVANI CLAIM FORM
+Claim ID: UPLOAD-DEMO-001
+Policy No: NIA-AS-2024-10023
+Insured Name: Rajesh Sharma
+Age: 36 | Gender: Male
+Sum Insured: INR 200,000 | Cumulative Bonus: INR 10,000
+Hospital: Apollo Hospitals, Mumbai (TIER1)
+Admission Date: 2024-07-10 | Discharge Date: 2024-07-13
+Diagnosis: Right Inguinal Hernia [ICD: K40.90]
+Procedure: Inguinal Hernioplasty (Mesh Repair)
+Total Claimed Amount: INR 81,650
+Bill Number: BILL-UPLOAD-001

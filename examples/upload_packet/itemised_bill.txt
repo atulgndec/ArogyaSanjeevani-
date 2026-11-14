@@ -1,0 +1,15 @@
+FINAL ITEMIZED HOSPITAL BILL - BILL-UPLOAD-001
+Hospital: Apollo Hospitals | GSTIN: 27AABCT8841F1ZS
+Patient: Rajesh Sharma | Bill Date: 2024-07-13
+--------------------------------------------------------------------------------
+Ln 16: Room Rent (Semi-Private) [Qty: 3 @ ₹4500] = ₹13500
+Ln 18: Surgeon Operating Fees [Qty: 1 @ ₹25000] = ₹25000
+Ln 20: Anaesthesia & Monitoring [Qty: 1 @ ₹8000] = ₹8000
+Ln 22: OT Charges & Theatre Booking [Qty: 1 @ ₹16000] = ₹16000
+Ln 24: Polypropylene Mesh & Sutures [Qty: 1 @ ₹7500] = ₹7500
+Ln 26: IV Fluids & Antibiotics [Qty: 1 @ ₹6400] = ₹6400
+Ln 28: Surgical Gloves & Aprons [Qty: 1 @ ₹1800] = ₹1800
+Ln 30: Admission Kit & Documentation [Qty: 1 @ ₹950] = ₹950
+Ln 32: Road Ambulance Service [Qty: 1 @ ₹2500] = ₹2500
+--------------------------------------------------------------------------------
+Grand Total Claimed: INR 81,650

@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test-and-evaluate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+      - run: python -m pip install --upgrade pip
+      - run: python -m pip install -r requirements.txt
+      - name: Run tests
+        run: python -m pytest -q
+      - name: Evaluate retrieval quality
+        env:
+          RETRIEVAL_MIN_RECALL_AT_5: "0.80"
+          RETRIEVAL_MIN_MRR: "0.65"
+        run: python eval_retrieval.py
+      - name: Evaluate prompt-attack defenses
+        run: python red_team_eval.py
+      - name: Evaluate adjudication invariants
+        run: python eval_adjudication.py

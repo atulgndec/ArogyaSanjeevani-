@@ -1,0 +1,416 @@
+[
+ {
+  "procedureName": "Cataract Phacoemulsification with Foldable IOL",
+  "category": "Ophthalmology",
+  "benchmarks": {
+   "tier1": {
+    "min": 25000,
+    "max": 45000,
+    "standardAvg": 35000
+   },
+   "tier2": {
+    "min": 18000,
+    "max": 35000,
+    "standardAvg": 26000
+   },
+   "tier3": {
+    "min": 14000,
+    "max": 28000,
+    "standardAvg": 20000
+   }
+  }
+ },
+ {
+  "procedureName": "Inguinal Hernioplasty (Mesh Repair)",
+  "category": "General Surgery",
+  "benchmarks": {
+   "tier1": {
+    "min": 45000,
+    "max": 75000,
+    "standardAvg": 58000
+   },
+   "tier2": {
+    "min": 32000,
+    "max": 55000,
+    "standardAvg": 42000
+   },
+   "tier3": {
+    "min": 22000,
+    "max": 40000,
+    "standardAvg": 30000
+   }
+  }
+ },
+ {
+  "procedureName": "Laparoscopic Cholecystectomy",
+  "category": "Gastroenterology / Surgery",
+  "benchmarks": {
+   "tier1": {
+    "min": 55000,
+    "max": 95000,
+    "standardAvg": 72000
+   },
+   "tier2": {
+    "min": 40000,
+    "max": 70000,
+    "standardAvg": 52000
+   },
+   "tier3": {
+    "min": 28000,
+    "max": 50000,
+    "standardAvg": 38000
+   }
+  }
+ },
+ {
+  "procedureName": "Total Knee Replacement (Arthroplasty)",
+  "category": "Orthopedics",
+  "benchmarks": {
+   "tier1": {
+    "min": 160000,
+    "max": 260000,
+    "standardAvg": 210000
+   },
+   "tier2": {
+    "min": 125000,
+    "max": 195000,
+    "standardAvg": 160000
+   },
+   "tier3": {
+    "min": 95000,
+    "max": 150000,
+    "standardAvg": 120000
+   }
+  }
+ },
+ {
+  "procedureName": "Acute Gastroenteritis / Fever Medical Management",
+  "category": "Internal Medicine",
+  "benchmarks": {
+   "tier1": {
+    "min": 16000,
+    "max": 38000,
+    "standardAvg": 26000
+   },
+   "tier2": {
+    "min": 12000,
+    "max": 28000,
+    "standardAvg": 19000
+   },
+   "tier3": {
+    "min": 8000,
+    "max": 18000,
+    "standardAvg": 13000
+   }
+  }
+ },
+ {
+  "procedureName": "Appendectomy (Laparoscopic)",
+  "category": "General Surgery",
+  "benchmarks": {
+   "tier1": {
+    "min": 48000,
+    "max": 82000,
+    "standardAvg": 62000
+   },
+   "tier2": {
+    "min": 35000,
+    "max": 62000,
+    "standardAvg": 46000
+   },
+   "tier3": {
+    "min": 24000,
+    "max": 45000,
+    "standardAvg": 32000
+   }
+  }
+ },
+ {
+  "procedureName": "Tympanoplasty / Mastoidectomy",
+  "category": "ENT",
+  "benchmarks": {
+   "tier1": {
+    "min": 32000,
+    "max": 58000,
+    "standardAvg": 44000
+   },
+   "tier2": {
+    "min": 24000,
+    "max": 44000,
+    "standardAvg": 33000
+   },
+   "tier3": {
+    "min": 16000,
+    "max": 32000,
+    "standardAvg": 23000
+   }
+  }
+ },
+ {
+  "procedureName": "Robotic-Assisted Surgery (Clause 4.6)",
+  "category": "Advanced Modern Treatment",
+  "benchmarks": {
+   "tier1": {
+    "min": 140000,
+    "max": 240000,
+    "standardAvg": 185000
+   },
+   "tier2": {
+    "min": 110000,
+    "max": 190000,
+    "standardAvg": 150000
+   },
+   "tier3": {
+    "min": 90000,
+    "max": 160000,
+    "standardAvg": 125000
+   }
+  }
+ },
+ {
+  "procedureName": "AYUSH Inpatient Treatment (Panchakarma/Ayurveda)",
+  "category": "AYUSH",
+  "benchmarks": {
+   "tier1": {
+    "min": 20000,
+    "max": 45000,
+    "standardAvg": 32000
+   },
+   "tier2": {
+    "min": 15000,
+    "max": 35000,
+    "standardAvg": 24000
+   },
+   "tier3": {
+    "min": 10000,
+    "max": 25000,
+    "standardAvg": 17000
+   }
+  }
+ },
+ {
+  "procedureName": "Haemodialysis session",
+  "category": "Nephrology",
+  "benchmarks": {
+   "tier1": {
+    "min": 2000,
+    "max": 3500,
+    "standardAvg": 2800
+   },
+   "tier2": {
+    "min": 1600,
+    "max": 2800,
+    "standardAvg": 2200
+   },
+   "tier3": {
+    "min": 1300,
+    "max": 2300,
+    "standardAvg": 1800
+   }
+  }
+ },
+ {
+  "procedureName": "Chemotherapy cycle (day care)",
+  "category": "Oncology",
+  "benchmarks": {
+   "tier1": {
+    "min": 18000,
+    "max": 45000,
+    "standardAvg": 30000
+   },
+   "tier2": {
+    "min": 15000,
+    "max": 38000,
+    "standardAvg": 25000
+   },
+   "tier3": {
+    "min": 12000,
+    "max": 32000,
+    "standardAvg": 20000
+   }
+  }
+ },
+ {
+  "procedureName": "Physiotherapy session",
+  "category": "Rehabilitation",
+  "benchmarks": {
+   "tier1": {
+    "min": 600,
+    "max": 1500,
+    "standardAvg": 1000
+   },
+   "tier2": {
+    "min": 450,
+    "max": 1200,
+    "standardAvg": 800
+   },
+   "tier3": {
+    "min": 350,
+    "max": 900,
+    "standardAvg": 600
+   }
+  }
+ },
+ {
+  "procedureName": "Coronary Artery Bypass Graft (CABG)",
+  "category": "Cardiothoracic Surgery",
+  "benchmarks": {
+   "tier1": {"min": 180000, "max": 320000, "standardAvg": 250000},
+   "tier2": {"min": 150000, "max": 270000, "standardAvg": 210000},
+   "tier3": {"min": 125000, "max": 230000, "standardAvg": 175000}
+  }
+ },
+ {
+  "procedureName": "Percutaneous Coronary Intervention (PCI)",
+  "category": "Cardiology",
+  "benchmarks": {
+   "tier1": {"min": 110000, "max": 220000, "standardAvg": 160000},
+   "tier2": {"min": 90000, "max": 185000, "standardAvg": 135000},
+   "tier3": {"min": 75000, "max": 155000, "standardAvg": 112000}
+  }
+ },
+ {
+  "procedureName": "Normal Vaginal Delivery",
+  "category": "Obstetrics",
+  "benchmarks": {
+   "tier1": {"min": 30000, "max": 70000, "standardAvg": 48000},
+   "tier2": {"min": 24000, "max": 55000, "standardAvg": 38000},
+   "tier3": {"min": 18000, "max": 42000, "standardAvg": 29000}
+  }
+ },
+ {
+  "procedureName": "Caesarean Section (C-Section)",
+  "category": "Obstetrics",
+  "benchmarks": {
+   "tier1": {"min": 55000, "max": 105000, "standardAvg": 78000},
+   "tier2": {"min": 45000, "max": 85000, "standardAvg": 63000},
+   "tier3": {"min": 35000, "max": 68000, "standardAvg": 50000}
+  }
+ },
+ {
+  "procedureName": "Abdominal Hysterectomy",
+  "category": "Gynecology",
+  "benchmarks": {
+   "tier1": {"min": 70000, "max": 140000, "standardAvg": 100000},
+   "tier2": {"min": 58000, "max": 115000, "standardAvg": 82000},
+   "tier3": {"min": 45000, "max": 90000, "standardAvg": 65000}
+  }
+ },
+ {
+  "procedureName": "Total Hip Replacement (Arthroplasty)",
+  "category": "Orthopedics",
+  "benchmarks": {
+   "tier1": {"min": 170000, "max": 280000, "standardAvg": 225000},
+   "tier2": {"min": 140000, "max": 235000, "standardAvg": 185000},
+   "tier3": {"min": 110000, "max": 190000, "standardAvg": 150000}
+  }
+ },
+ {
+  "procedureName": "Open Reduction and Internal Fixation (ORIF)",
+  "category": "Orthopedics",
+  "benchmarks": {
+   "tier1": {"min": 60000, "max": 150000, "standardAvg": 100000},
+   "tier2": {"min": 48000, "max": 125000, "standardAvg": 82000},
+   "tier3": {"min": 38000, "max": 100000, "standardAvg": 65000}
+  }
+ },
+ {
+  "procedureName": "Lumbar Discectomy",
+  "category": "Neurosurgery",
+  "benchmarks": {
+   "tier1": {"min": 100000, "max": 220000, "standardAvg": 155000},
+   "tier2": {"min": 85000, "max": 185000, "standardAvg": 130000},
+   "tier3": {"min": 70000, "max": 150000, "standardAvg": 105000}
+  }
+ },
+ {
+  "procedureName": "Ureteroscopy with Laser Lithotripsy",
+  "category": "Urology",
+  "benchmarks": {
+   "tier1": {"min": 65000, "max": 125000, "standardAvg": 90000},
+   "tier2": {"min": 52000, "max": 102000, "standardAvg": 74000},
+   "tier3": {"min": 42000, "max": 82000, "standardAvg": 60000}
+  }
+ },
+ {
+  "procedureName": "Transurethral Resection of Prostate (TURP)",
+  "category": "Urology",
+  "benchmarks": {
+   "tier1": {"min": 70000, "max": 135000, "standardAvg": 98000},
+   "tier2": {"min": 58000, "max": 112000, "standardAvg": 82000},
+   "tier3": {"min": 45000, "max": 90000, "standardAvg": 65000}
+  }
+ },
+ {
+  "procedureName": "Pneumonia Inpatient Medical Management",
+  "category": "Internal Medicine",
+  "benchmarks": {
+   "tier1": {"min": 25000, "max": 65000, "standardAvg": 43000},
+   "tier2": {"min": 20000, "max": 52000, "standardAvg": 34000},
+   "tier3": {"min": 15000, "max": 40000, "standardAvg": 26000}
+  }
+ },
+ {
+  "procedureName": "Dengue Inpatient Medical Management",
+  "category": "Internal Medicine",
+  "benchmarks": {
+   "tier1": {"min": 18000, "max": 48000, "standardAvg": 32000},
+   "tier2": {"min": 15000, "max": 39000, "standardAvg": 26000},
+   "tier3": {"min": 11000, "max": 30000, "standardAvg": 20000}
+  }
+ },
+ {
+  "procedureName": "Thyroidectomy",
+  "category": "Endocrine Surgery",
+  "benchmarks": {
+   "tier1": {"min": 75000, "max": 145000, "standardAvg": 105000},
+   "tier2": {"min": 62000, "max": 120000, "standardAvg": 88000},
+   "tier3": {"min": 50000, "max": 98000, "standardAvg": 71000}
+  }
+ },
+ {
+  "procedureName": "Tonsillectomy",
+  "category": "ENT",
+  "benchmarks": {
+   "tier1": {"min": 35000, "max": 75000, "standardAvg": 52000},
+   "tier2": {"min": 28000, "max": 62000, "standardAvg": 43000},
+   "tier3": {"min": 22000, "max": 50000, "standardAvg": 34000}
+  }
+ },
+ {
+  "procedureName": "Acute Myocardial Infarction Medical Management",
+  "category": "Cardiology",
+  "benchmarks": {
+   "tier1": {"min": 60000, "max": 180000, "standardAvg": 115000},
+   "tier2": {"min": 50000, "max": 150000, "standardAvg": 95000},
+   "tier3": {"min": 40000, "max": 125000, "standardAvg": 78000}
+  }
+ },
+ {
+  "procedureName": "Bronchoscopy",
+  "category": "Pulmonology",
+  "benchmarks": {
+   "tier1": {"min": 18000, "max": 45000, "standardAvg": 30000},
+   "tier2": {"min": 15000, "max": 38000, "standardAvg": 25000},
+   "tier3": {"min": 12000, "max": 32000, "standardAvg": 21000}
+  }
+ },
+ {
+  "procedureName": "Laparoscopic Nephrectomy",
+  "category": "Urology",
+  "benchmarks": {
+   "tier1": {"min": 120000, "max": 240000, "standardAvg": 175000},
+   "tier2": {"min": 100000, "max": 205000, "standardAvg": 150000},
+   "tier3": {"min": 80000, "max": 170000, "standardAvg": 122000}
+  }
+ },
+ {
+  "procedureName": "Mastectomy",
+  "category": "Oncology Surgery",
+  "benchmarks": {
+   "tier1": {"min": 85000, "max": 175000, "standardAvg": 125000},
+   "tier2": {"min": 70000, "max": 145000, "standardAvg": 103000},
+   "tier3": {"min": 55000, "max": 118000, "standardAvg": 82000}
+  }
+ }
+]

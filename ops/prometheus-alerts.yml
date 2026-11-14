@@ -1,0 +1,11 @@
+groups:
+  - name: arogya-health
+    rules:
+      - alert: ArogyaAPIDown
+        expr: up{job="arogya"} == 0
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Arogya API is unavailable"
+          description: "Prometheus cannot scrape the Arogya API for more than one minute."
